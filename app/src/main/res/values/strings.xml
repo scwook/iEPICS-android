@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">iEPICS-android</string>
+    <string name="EPICS_name">EPICS</string>
+</resources>
