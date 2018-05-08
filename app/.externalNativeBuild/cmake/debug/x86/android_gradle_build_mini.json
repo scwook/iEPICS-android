@@ -1,16 +1,26 @@
 {
   "buildFiles": [
-    "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/CMakeLists.txt"
+    "/home/scwook/git/iEPICS-android/app/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+    "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86 --target clean"
   ],
   "libraries": {
+    "Com-Debug-x86": {
+      "artifactName": "Com",
+      "abi": "x86",
+      "output": "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libCom.a"
+    },
+    "ca-Debug-x86": {
+      "artifactName": "ca",
+      "abi": "x86",
+      "output": "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libca.a"
+    },
     "native-lib-Debug-x86": {
       "artifactName": "native-lib",
-      "buildCommand": "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
+      "buildCommand": "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
       "abi": "x86",
-      "output": "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+      "output": "/home/scwook/git/iEPICS-android/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
     }
   }
 }

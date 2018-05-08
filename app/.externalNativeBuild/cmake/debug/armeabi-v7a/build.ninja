@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/armeabi-v7a && /home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake -H/home/scwook/AndroidStudioProjects/iEPICSandroid/app -B/home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+  COMMAND = cd /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/armeabi-v7a && /home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake -H/home/scwook/git/iEPICS-android/app -B/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/armeabi-v7a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -44,7 +44,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/armeabi-v7a && /home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/armeabi-v7a && /home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -54,9 +54,17 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/native-lib.cpp
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o.d
-  FLAGS = -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /home/scwook/AndroidStudioProjects/iEPICSandroid/app/src/main/cpp/native-lib.cpp
+  FLAGS = -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I/home/scwook/epics/R3.16.1/base/include -I/home/scwook/epics/R3.16.1/base/include/os/Linux -I/home/scwook/epics/R3.16.1/base/include/compiler/clang -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /home/scwook/git/iEPICS-android/app/src/main/cpp/native-lib.cpp
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/ChannelAccessClient.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/ChannelAccessClient.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/ChannelAccessClient.cpp.o.d
+  FLAGS = -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I/home/scwook/epics/R3.16.1/base/include -I/home/scwook/epics/R3.16.1/base/include/os/Linux -I/home/scwook/epics/R3.16.1/base/include/compiler/clang -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /home/scwook/git/iEPICS-android/app/src/main/cpp/ChannelAccessClient.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
 
@@ -67,10 +75,10 @@ build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__nat
 #############################################
 # Link the shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so
 
-build ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o | /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm/usr/lib/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
+build ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/ChannelAccessClient.cpp.o | /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm/usr/lib/liblog.so /home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libca.a /home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libCom.a
+  LANGUAGE_COMPILE_FLAGS = -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
-  LINK_LIBRARIES = /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm/usr/lib/liblog.so -latomic -lm "/home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a"
+  LINK_LIBRARIES = /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm/usr/lib/liblog.so /home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libca.a /home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libCom.a -latomic -lm "/home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles/native-lib.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -1,29 +1,51 @@
 
 {
-	"buildFiles" : [ "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/CMakeLists.txt" ],
+	"buildFiles" : [ "/home/scwook/git/iEPICS-android/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+		"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
+		"Com-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "Com",
+			"buildType" : "release",
+			"output" : "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libCom.a",
+			"toolchain" : "9908565924314148823"
+		},
+		"ca-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "ca",
+			"buildType" : "release",
+			"output" : "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libca.a",
+			"toolchain" : "9908565924314148823"
+		},
 		"native-lib-Release-arm64-v8a" : 
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+			"buildCommand" : "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/scwook/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/scwook/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/scwook/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/scwook/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/home/scwook/epics/R3.16.1/base/include -I/home/scwook/epics/R3.16.1/base/include/os/Linux -I/home/scwook/epics/R3.16.1/base/include/compiler/clang -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/scwook/git/iEPICS-android/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/scwook/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/scwook/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/home/scwook/epics/R3.16.1/base/include -I/home/scwook/epics/R3.16.1/base/include/os/Linux -I/home/scwook/epics/R3.16.1/base/include/compiler/clang -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/scwook/git/iEPICS-android/app/src/main/cpp/ChannelAccessClient.cpp",
+					"workingDirectory" : "/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/arm64-v8a"
 				}
 			],
-			"output" : "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"output" : "/home/scwook/git/iEPICS-android/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
 			"toolchain" : "9908565924314148823"
 		}
 	},

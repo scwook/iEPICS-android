@@ -1,16 +1,26 @@
 {
   "buildFiles": [
-    "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/CMakeLists.txt"
+    "/home/scwook/git/iEPICS-android/app/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+    "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
   ],
   "libraries": {
     "native-lib-Release-arm64-v8a": {
       "artifactName": "native-lib",
-      "buildCommand": "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+      "buildCommand": "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
       "abi": "arm64-v8a",
-      "output": "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+      "output": "/home/scwook/git/iEPICS-android/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    },
+    "ca-Release-arm64-v8a": {
+      "artifactName": "ca",
+      "abi": "arm64-v8a",
+      "output": "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libca.a"
+    },
+    "Com-Release-arm64-v8a": {
+      "artifactName": "Com",
+      "abi": "arm64-v8a",
+      "output": "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libCom.a"
     }
   }
 }

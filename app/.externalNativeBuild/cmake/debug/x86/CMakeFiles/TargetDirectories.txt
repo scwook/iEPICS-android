@@ -1,3 +1,3 @@
-/home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
-/home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
-/home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir
+/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir

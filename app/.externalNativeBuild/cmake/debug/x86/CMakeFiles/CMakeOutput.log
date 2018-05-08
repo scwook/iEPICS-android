@@ -1,19 +1,19 @@
 The target system is: Android - 1 - i686
-The host system is: Linux - 4.9.0-4-amd64 - x86_64
+The host system is: Linux - 4.9.0-6-amd64 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_9802f"
-[1/2] Building C object CMakeFiles/cmTC_9802f.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_9802f
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_122ac"
+[1/2] Building C object CMakeFiles/cmTC_122ac.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_122ac
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_79fb3"
-[1/2] Building C object CMakeFiles/cmTC_79fb3.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_79fb3
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_21c61"
+[1/2] Building C object CMakeFiles/cmTC_21c61.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_21c61
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: i686-none-linux-android
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: /home/scwook/Android/Sdk/ndk-bundle/toolchains
 Selected GCC installation: /home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_79fb3 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_79fb3.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
+ "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_21c61 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_21c61.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_79fb3"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_79fb3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_79fb3]
+  ignore line: [Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_21c61"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_21c61.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_21c61]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: i686-none-linux-android]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_79fb3 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_79fb3.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_21c61 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_21c61.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
     arg [/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -51,7 +51,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_79fb3] ==> ignore
+    arg [cmTC_21c61] ==> ignore
     arg [/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> dir [/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
     arg [-L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -70,7 +70,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_79fb3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_21c61.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -91,11 +91,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_00585"
-[1/2] Building C object CMakeFiles/cmTC_00585.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_00585
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_434b8"
+[1/2] Building C object CMakeFiles/cmTC_434b8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_434b8
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -105,11 +105,11 @@ Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_0
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d4f05"
-[1/2] Building C object CMakeFiles/cmTC_d4f05.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_d4f05
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4b06c"
+[1/2] Building C object CMakeFiles/cmTC_4b06c.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_4b06c
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -119,11 +119,11 @@ Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_14fee"
-[1/2] Building C object CMakeFiles/cmTC_14fee.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_14fee
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_fa67d"
+[1/2] Building C object CMakeFiles/cmTC_fa67d.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_fa67d
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -131,19 +131,19 @@ Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_1
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_cbd7b"
-[1/2] Building CXX object CMakeFiles/cmTC_cbd7b.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_cbd7b
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b8bfa"
+[1/2] Building CXX object CMakeFiles/cmTC_b8bfa.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_b8bfa
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_6c107"
-[1/2] Building CXX object CMakeFiles/cmTC_6c107.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_6c107
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f9810"
+[1/2] Building CXX object CMakeFiles/cmTC_f9810.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_f9810
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: i686-none-linux-android
 Thread model: posix
@@ -152,16 +152,16 @@ Found candidate GCC installation: /home/scwook/Android/Sdk/ndk-bundle/toolchains
 Selected GCC installation: /home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_6c107 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_6c107.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
+ "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f9810 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_f9810.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_6c107"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_6c107.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_6c107]
+  ignore line: [Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f9810"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_f9810.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_f9810]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: i686-none-linux-android]
   ignore line: [Thread model: posix]
@@ -172,7 +172,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_6c107 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_6c107.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f9810 /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_f9810.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtend_android.o]
     arg [/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -181,7 +181,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6c107] ==> ignore
+    arg [cmTC_f9810] ==> ignore
     arg [/home/scwook/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> dir [/home/scwook/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
     arg [-L/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/scwook/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -200,7 +200,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_6c107.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f9810.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -227,11 +227,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_47479"
-[1/2] Building CXX object CMakeFiles/cmTC_47479.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_47479
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_fa218"
+[1/2] Building CXX object CMakeFiles/cmTC_fa218.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_fa218
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -294,11 +294,11 @@ Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_24744"
-[1/2] Building CXX object CMakeFiles/cmTC_24744.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_24744
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_68967"
+[1/2] Building CXX object CMakeFiles/cmTC_68967.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_68967
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -361,11 +361,11 @@ Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_2
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_be4be"
-[1/2] Building CXX object CMakeFiles/cmTC_be4be.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_be4be
+Run Build Command:"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_6317e"
+[1/2] Building CXX object CMakeFiles/cmTC_6317e.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_6317e
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,7 +1,4 @@
 # ninja log v5
-0	93	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7c7cc7df628fc58f
-94	155	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	14b7079aa635e1cd
-0	114	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7c7cc7df628fc58f
-114	173	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	14b7079aa635e1cd
-1	106	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7c7cc7df628fc58f
-106	166	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	14b7079aa635e1cd
+0	42	0	CMakeFiles/native-lib.dir/src/main/cpp/ChannelAccessClient.cpp.o	45a281fac3bcc0d
+0	102	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	5197a91ea1da8a4d
+102	117	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	b0d8806f06b0fb57

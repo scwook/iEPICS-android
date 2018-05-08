@@ -1,7 +1,4 @@
 # ninja log v5
-0	169	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	3bc409b7b5975a9f
-169	231	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	311a42ec29a3dc60
-1	174	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	3bc409b7b5975a9f
-174	242	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	311a42ec29a3dc60
-14	254	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	3bc409b7b5975a9f
-254	318	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	311a42ec29a3dc60
+0	82	0	CMakeFiles/native-lib.dir/src/main/cpp/ChannelAccessClient.cpp.o	5689a90c061343a0
+0	126	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	abe3cef9711cb79a
+126	138	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	cfd1ce69a9b164ad

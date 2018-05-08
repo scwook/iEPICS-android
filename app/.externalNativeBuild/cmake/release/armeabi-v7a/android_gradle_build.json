@@ -1,29 +1,51 @@
 
 {
-	"buildFiles" : [ "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/CMakeLists.txt" ],
+	"buildFiles" : [ "/home/scwook/git/iEPICS-android/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+		"/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
+		"Com-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "Com",
+			"buildType" : "release",
+			"output" : "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libCom.a",
+			"toolchain" : "9908565924314148823"
+		},
+		"ca-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ca",
+			"buildType" : "release",
+			"output" : "/home/scwook/epics/R3.16.1/base/lib/linux-x86_64/libca.a",
+			"toolchain" : "9908565924314148823"
+		},
 		"native-lib-Release-armeabi-v7a" : 
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildCommand" : "/home/scwook/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/scwook/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/scwook/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/scwook/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/scwook/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/home/scwook/epics/R3.16.1/base/include -I/home/scwook/epics/R3.16.1/base/include/os/Linux -I/home/scwook/epics/R3.16.1/base/include/compiler/clang -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/scwook/git/iEPICS-android/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/scwook/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/scwook/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/home/scwook/epics/R3.16.1/base/include -I/home/scwook/epics/R3.16.1/base/include/os/Linux -I/home/scwook/epics/R3.16.1/base/include/compiler/clang -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/scwook/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/scwook/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -D__STDC_FORMAT_MACROS -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/scwook/git/iEPICS-android/app/src/main/cpp/ChannelAccessClient.cpp",
+					"workingDirectory" : "/home/scwook/git/iEPICS-android/app/.externalNativeBuild/cmake/release/armeabi-v7a"
 				}
 			],
-			"output" : "/home/scwook/AndroidStudioProjects/iEPICSandroid/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"output" : "/home/scwook/git/iEPICS-android/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
 			"toolchain" : "9908565924314148823"
 		}
 	},
